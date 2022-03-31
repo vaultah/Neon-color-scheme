@@ -227,10 +227,18 @@
             "foreground": "#CFFF01"
         },
         {
-            "name": "Dict key",
-            "scope": "meta.structure.dictionary meta.structure.dictionary.key, constant.other.object.key string, meta.object-literal.key, meta.mapping.key",
+            "name": "Dict variable key",
+            "scope": "meta.structure.dictionary meta.structure.dictionary.key meta, constant.other.object.key meta, meta.object-literal.key meta, meta.mapping.key meta",
             "foreground": "#A9FF98",
+            "background": "rgba(169, 255, 255, 0.15)",
             "font_style": "bold"
+        },
+        {
+            "name": "Dict constant key",
+            "scope": "meta.structure.dictionary meta.structure.dictionary.key string, constant.other.object.key string, meta.object-literal.key string, meta.mapping.key string",
+            "foreground": "#A9FF98",
+            "font_style": "bold",
+            "background": "none"
         },
         {
             "name": "Dict Value",
