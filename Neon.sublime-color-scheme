@@ -2115,6 +2115,12 @@
             "font_style": "bold"
         },
         {
+            "name": "Decorator argument",
+            "scope": "meta.annotation.arguments meta.qualified-name",
+            "background": "none",
+            "font_style": "bold"
+        },
+        {
             "name": "Django models",
             "scope": "support.type.django.model",
             "foreground": "#588925"
